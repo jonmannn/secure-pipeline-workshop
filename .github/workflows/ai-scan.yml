@@ -16,6 +16,7 @@
 # 3. Comment '/ai-review' on any pull request to trigger the scan
 # 4. The AI will analyze code changes and provide security recommendations
 # =============================================================================
+name: ai security scan
 
 on:
   workflow_call:
