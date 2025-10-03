@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:24-alpine
 
 RUN addgroup -g 1001 -S nodejs && \
   adduser -S nextjs -u 1001 -G nodejs
